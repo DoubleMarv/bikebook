@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><%= locals.title || 'Default'%></title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/dist/lit.css" />
+
+</head>
+
+<body id="home">
+
+<div class="c">
+   
+
+<div class="row">
+        <div class="12 col">
+         <h1><%= locals.title || 'Default'%></h1>
+        </div>
+        </div>
+
+
+<div class="row">
+        <div class="7 col">
+        <h1><%= locals.day || 'Day'%></h1>
+        </div>
+        <div class="5 col">
+         <ul>
+<% for(var i=0; i<database.length; i++) {%>
+   <li><%= database[i] %></li>
+<% } %>
+</ul>
+        </div>
+    </div>
+
+
+</div>
+
+    <div>
+</body>
+</html>
+
