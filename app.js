@@ -13,10 +13,7 @@ let titler = 'Ass Piss';
 let word = '';
 
 const connection = mysql.createConnection({
-  host: 'sql2.freemysqlhosting.net',
-  user: 'sql2603309',
-  password: 'hQ8%rF6!',
-  database: 'sql2603309',
+
 })
 
 
