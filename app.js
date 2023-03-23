@@ -41,7 +41,7 @@ res.render('index',
     database: resulto
   }
 );
-}, 500);
+}, 1000);
 
 })
 
