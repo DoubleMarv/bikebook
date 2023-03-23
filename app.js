@@ -9,7 +9,7 @@ const headermenu = '<div class="" style="height: 3rem; background: red; color: #
 
 app.get('/', (req, res) => {
 let resulto = [];
-let titler = 'Ass Piss';
+let titler = 'Sample';
 let word = '';
 
 const connection = mysql.createConnection({
@@ -47,5 +47,5 @@ app.use(express.static(__dirname + '/static'));
 	res.send(headermenu+'<img name="picture" src="/images/square-logo.jpg" class="card-img-profile pro-img" id="picture" />');
 })
 
-app.listen(port, () => console.log('running with the tits'));
+app.listen(port, () => console.log('running with the wind'));
 
